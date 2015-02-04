@@ -1,0 +1,23 @@
+{
+    "name": "ryanhs/dependency",
+    "description": "very very small dependency class",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "ryan hs",
+            "email": "mr.ryansilalahi@gmail.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {
+        "ryanhs/hook": "1.0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    },
+    "autoload": {
+		"psr-4": {
+			"Ryanhs\\Dependency\\": "src/"
+		}
+	}
+}
